@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="update functionality to go by zip folder rather than individual files" />
+    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="refactoring to use shutil.copy and os.remove instead of shutil.move" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Install external daz files.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Install external daz files.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jmkin/PycharmProjects/DazExternalInstaller"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702409608153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactoring to use shutil.copy and os.remove instead of shutil.move">
+      <option name="closed" value="true" />
+      <created>1702417665588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702417665589</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="update functionality to go by zip folder rather than individual files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update functionality to go by zip folder rather than individual files" />
+    <MESSAGE value="refactoring to use shutil.copy and os.remove instead of shutil.move" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring to use shutil.copy and os.remove instead of shutil.move" />
   </component>
 </project>
