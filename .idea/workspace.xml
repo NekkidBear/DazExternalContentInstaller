@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="add delay to ensure the file has been released before removing.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="updated so the non-installed files are retained." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702417926835</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated so the non-installed files are retained.">
+      <option name="closed" value="true" />
+      <created>1702419453220</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702419453220</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +145,7 @@
     <MESSAGE value="update functionality to go by zip folder rather than individual files" />
     <MESSAGE value="refactoring to use shutil.copy and os.remove instead of shutil.move" />
     <MESSAGE value="add delay to ensure the file has been released before removing." />
-    <option name="LAST_COMMIT_MESSAGE" value="add delay to ensure the file has been released before removing." />
+    <MESSAGE value="updated so the non-installed files are retained." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated so the non-installed files are retained." />
   </component>
 </project>
