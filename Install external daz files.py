@@ -22,7 +22,7 @@ for filename in os.listdir(new_folder_path):
                 answer = input().lower()
 
                 # If the user wants to install the files, extract them to the Daz library
-                if answer in ["yes", "y"]:
+                if answer.lower() in ["yes", "y"]:
                     zip_ref.extractall(daz_library_path)
                     print(f"The files from {filename} have been installed to the Daz library.")
 
