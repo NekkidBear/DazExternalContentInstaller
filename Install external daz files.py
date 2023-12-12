@@ -31,9 +31,9 @@ for filename in os.listdir(new_folder_path):
                     shutil.copy(filepath, os.path.join(zip_files_folder_path, filename))
                     print(f"The zip file {filename} has been copied to {zip_files_folder_path}.")
 
-        # Add a delay before removing the file
-        time.sleep(1)  # wait for 1 second
+                    # Add a delay before removing the file
+                    time.sleep(1)  # wait for 1 second
 
-        # Remove the original zip file
-        os.remove(filepath)
-        print(f"The original zip file {filename} has been removed from {new_folder_path}.")
+                    # Remove the original zip file
+                    os.remove(filepath)
+                    print(f"The original zip file {filename} has been removed from {new_folder_path}.")
