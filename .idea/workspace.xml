@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="updated so the non-installed files are retained." />
+    <list default="true" id="5a7adf77-d14e-4092-a190-aa5df4faa80b" name="Changes" comment="updated so the non-installed files are retained.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Install external daz files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Install external daz files.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702419453220</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated so the non-installed files are retained.">
+      <option name="closed" value="true" />
+      <created>1702419562328</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702419562328</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
