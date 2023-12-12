@@ -26,6 +26,10 @@ for filename in os.listdir(new_folder_path):
                     zip_ref.extractall(daz_library_path)
                     print(f"The files from {filename} have been installed to the Daz library.")
 
-                    # After installing the content of the zip file, move the zip file to the specified folder
-                    shutil.move(filepath, os.path.join(zip_files_folder_path, filename))
-                    print(f"The zip file {filename} has been moved to {zip_files_folder_path}.")
+                    # After installing the content of the zip file, copy the zip file to the specified folder
+                    shutil.copy(filepath, os.path.join(zip_files_folder_path, filename))
+                    print(f"The zip file {filename} has been copied to {zip_files_folder_path}.")
+
+                    # Remove the original zip file
+                    os.remove(filepath)
+                    print(f"The original zip file {filename} has been removed from {new_folder_path}.")
